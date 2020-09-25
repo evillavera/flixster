@@ -17,13 +17,20 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/YamwfLSBWK.gif" width=250><br>
 
+Below are gifs are my Bonus Work
+<img src="http://g.recordit.co/iNW8ZQ86MX.gif" width=250><br>
+<img src="http://g.recordit.co/H2PxgtgYXA.gif" width=250><br>
+
 ### Notes
 Describe any challenges encountered while building the app.
 No challenges at all!
+
+UPDATE (9/25/20)
+Auto layout did take a significant amount of time to learn for myself. I was able to get the layout to work the way I wanted it after playing around with it for a bit. 
