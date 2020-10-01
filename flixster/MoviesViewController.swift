@@ -33,7 +33,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             self.movies = dataDictionary["results"] as! [[String:Any]]
             //this is casting as! [[String:Any]]
             
-                print(dataDictionary)
+                //print(dataDictionary)
 
             self.tableView.reloadData()
               // TODO: Get the array of movies
@@ -69,14 +69,27 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        print("Loading up Details Screen")
+        
+        //Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        //Pass the selected movie to the Details VC
+        
+        let detailViewController = segue.destination as! MovieDetailsViewController
+        
+        detailViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
 
 }
