@@ -203,7 +203,7 @@
         <scene sceneID="7Vt-kp-Ijt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x8B-SJ-Ebz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing " selectedImage="now_playing_tabbar_item" id="aa7-7u-8QY"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing " image="now_playing_tabbar_item" id="aa7-7u-8QY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EGX-S2-Bdr">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
