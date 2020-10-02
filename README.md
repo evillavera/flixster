@@ -4,8 +4,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 ## Flix Part 2
 
 ### User Stories
@@ -15,14 +13,17 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/1xTWHEo0l3.gif" width=250><br>
+<img src="http://g.recordit.co/KQpqzVkgnX.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
+UPDATE (10/2/2020) 
+I was unable to complete the 2nd bonus challenge. I had trouble getting an interaction with the tap gesture object. The user interaction was set true for the posterView. I will continue to try.
 
 ---
 
