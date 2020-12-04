@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AlamofireImage
+//import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var movies = [[String:Any]]() //creation of an array of dictionaries
@@ -63,7 +63,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
         
-        cell.posterView.af_setImage(withURL: posterUrl!)
+        //cell.posterView.af_setImage(withURL: posterUrl!)
+        cell.posterView.downloaded(from: posterUrl!)
         
         return cell
     }
